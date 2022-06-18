@@ -1,0 +1,5 @@
+To Download movies.csv
+
+from google.colab import files 
+df2.to_csv('movies.csv') 
+files.download('movies.csv')
