@@ -1,0 +1,13 @@
+Create an App to provide users with recommendations on what to watch next based on what they have already watched.
+
+Our app wil have 2 screens:
+=> Screen 1(display movie one by one in a flatlist): take user input on the type of movie user likes
+=> Screen 2: provide recommendation to user.
+
+Features on the 1st page
+1. User can mark the movie as liked, not liked,  not watched.
+2. we will build 4 apis. one is for all movies(get request) to get all the movies. next 3 apis are for post request(liked, not-liked,not-watched)
+
+all the movie information will be stored in 4 different list.
+
+If the user likes a specific movie, that movie will be removed from the main list and will be added to the lied/not-liked/not-watched list to avoid repeatation.
